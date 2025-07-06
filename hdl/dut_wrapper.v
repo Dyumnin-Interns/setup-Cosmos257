@@ -10,7 +10,7 @@ module dut_wrapper(
     .y(y)
   );
 
-  inital begin
+  initial begin
     $dumpfile("waves.vcd");
     $dumpvars;
   end
